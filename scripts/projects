@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if [ "$(uname)" != "Darwin" ]; then
+  echo "Skipping Projects scaffolding on non-MacOS platform"
+  exit 0
+fi
+
+mkdir -p ~/Developer/Repos
+mkdir -p ~/Developer/Forks
+mkdir -p ~/Developer/Jobs
+mkdir -p ~/Developer/Playground
