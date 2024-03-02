@@ -51,4 +51,5 @@ cask "google-chrome"
 cask "docker"
 cask "jetbrains-toolbox"
 cask "postman"
+cask "rectangle"
 
