@@ -20,6 +20,7 @@ brew "nvm"
 brew "npm"
 brew "pre-commit"
 brew "poetry"
+brew "pyenv"
 brew "terminal-notifier"
 brew "watch"
 brew "git"
@@ -33,6 +34,7 @@ brew "tldr"
 brew "mas"
 brew "wifi-password"
 brew "bat"
+brew "pygments"
 
 # ------------------------------------------------------------------------------
 # Cask

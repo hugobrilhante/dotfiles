@@ -227,9 +227,9 @@ main() {
   on_start "$*"
   install_homebrew "$*"
   install_git "$*"
-  install_zsh "$*"
   install_software "$*"
   install_npm "$*"
+  install_zsh "$*"
   on_finish "$*"
 }
 
