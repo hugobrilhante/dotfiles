@@ -20,6 +20,7 @@ brew "k9s"                      # https://k9scli.io/
 brew "kubernetes-cli"           # https://kubernetes.io/docs/reference/kubectl/
 brew "lsd"                      # https://github.com/lsd-rs/lsd
 brew "mas"                      # https://github.com/mas-cli/mas
+brew "npm"                      # https://github.com/npm
 brew "nvm"                      # https://github.com/nvm-sh/nvm
 brew "poetry"                   # https://python-poetry.org/
 brew "pre-commit"               # https://pre-commit.com/
