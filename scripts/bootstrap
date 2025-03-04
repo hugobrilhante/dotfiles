@@ -188,6 +188,7 @@ install_npm() {
     npkill
     fkill-cli
     trash-cli
+    tldr
   )
 
   echo "Installing: ${packages[*]}"
