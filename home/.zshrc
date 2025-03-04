@@ -34,8 +34,6 @@ _extend_path "$HOME/.local/bin"
 _extend_path "$DOTFILES/bin"
 _extend_path "$HOME/.npm-global/bin"
 _extend_path "$HOME/.rvm/bin"
-_extend_path "$HOME/.yarn/bin"
-_extend_path "$HOME/.config/yarn/global/node_modules/.bin"
 _extend_path "$HOME/.bun/bin"
 _extend_path "/opt/homebrew/bin"
 _extend_path "/opt/homebrew/sbin"
@@ -124,7 +122,6 @@ if ! zgen saved; then
     zgen oh-my-zsh plugins/sudo
     zgen oh-my-zsh plugins/command-not-found
     zgen oh-my-zsh plugins/npm
-    zgen oh-my-zsh plugins/yarn
     zgen oh-my-zsh plugins/nvm
     zgen oh-my-zsh plugins/extract
     zgen oh-my-zsh plugins/ssh-agent
