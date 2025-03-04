@@ -129,8 +129,6 @@ Dotfiles also include some functions that will make your life easier. See code i
 - `git-upstream` — sync branch with upstream.
 - `gz` — get gzipped file size
 - `n` — runs given command using binary in `node_modules/.bin` of the current project.
-- `nyan` — print [nyan cat](https://www.youtube.com/watch?v=QH2-TGUlwu4).
-- `server` — start an HTTP server from a directory.
 
 ### Git
 

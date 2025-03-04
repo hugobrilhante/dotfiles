@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-# Get System Updates, update NPM packages and dotfiles
-# Source: https://github.com/sapegin/dotfiles/blob/master/setup/update.sh
+# Get System Updates, update NPM global packages, and dotfiles
 
 trap on_error SIGTERM
 
@@ -97,6 +96,18 @@ update_apt_get() {
   finish
 }
 
+update_npm_global() {
+  if ! _exists npm; then
+    return
+  fi
+
+  info "Updating global NPM packages..."
+
+  npm update -g
+
+  finish
+}
+
 on_finish() {
   success "Done!"
   success "Happy Coding!"
@@ -126,6 +137,7 @@ main() {
   update_dotfiles "$*"
   update_brew "$*"
   update_apt_get "$*"
+  update_npm_global "$*"
   on_finish "$*"
 }
 

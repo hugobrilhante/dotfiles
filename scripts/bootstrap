@@ -184,9 +184,10 @@ install_npm() {
 
   packages=(
     commitizen
+    cz-conventional-changelog
     npkill
     fkill-cli
-    cz-conventional-changelog
+    trash-cli
   )
 
   echo "Installing: ${packages[*]}"
