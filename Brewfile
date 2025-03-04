@@ -25,7 +25,6 @@ brew "mas"                      # https://github.com/mas-cli/mas
 brew "nvm"                      # https://github.com/nvm-sh/nvm
 brew "poetry"                   # https://python-poetry.org/
 brew "pre-commit"               # https://pre-commit.com/
-brew "pyenv"                    # https://github.com/pyenv/pyenv
 brew "pygments"                 # https://pygments.org/
 brew "terminal-notifier"        # https://github.com/julienXX/terminal-notifier
 brew "tldr"                     # https://tldr.sh/

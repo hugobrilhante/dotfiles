@@ -38,11 +38,6 @@ _extend_path "$HOME/.bun/bin"
 _extend_path "/opt/homebrew/bin"
 _extend_path "/opt/homebrew/sbin"
 
-# Pyenv config
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
 # Extend $NODE_PATH
 if [ -d ~/.npm-global ]; then
   export NODE_PATH="$NODE_PATH:$HOME/.npm-global/lib/node_modules"
