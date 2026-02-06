@@ -26,7 +26,8 @@ function branches() {
 
 if [[ "$1" != "--force" ]]; then
   branches
-  exit 1
+  echo "\nRun with --force to delete branches"
+  exit 0
 fi
 
 # Delete all unreachable objects from the object database
