@@ -17,6 +17,7 @@ brew "mas"                      # https://github.com/mas-cli/mas
 brew "node"                     # https://nodejs.org/ (includes npm)
 brew "pre-commit"               # https://pre-commit.com/
 brew "pygments"                 # https://pygments.org/
+brew "terminal-notifier"        # https://github.com/julienXX/terminal-notifier
 brew "tree"                     # https://linux.die.net/man/1/tree
 brew "unbound"                  # https://nlnetlabs.nl/projects/unbound/about/
 brew "uv"                       # https://github.com/astral-sh/uv

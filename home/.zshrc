@@ -30,13 +30,13 @@ _extend_path() {
 }
 
 # Add custom bin to $PATH
+_extend_path "/opt/homebrew/sbin"
+_extend_path "/opt/homebrew/bin"
 _extend_path "$HOME/.local/bin"
 _extend_path "$DOTFILES/bin"
 _extend_path "$HOME/.npm-global/bin"
 _extend_path "$HOME/.rvm/bin"
 _extend_path "$HOME/.bun/bin"
-_extend_path "/opt/homebrew/bin"
-_extend_path "/opt/homebrew/sbin"
 
 # Extend $NODE_PATH
 if [ -d ~/.npm-global ]; then
