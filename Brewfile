@@ -1,5 +1,4 @@
 # Homebrew Bundle
-# https://github.com/Homebrew/homebrew-bundle
 
 # ------------------------------------------------------------------------------
 # CLI Tools
@@ -28,6 +27,7 @@ brew "zsh"                      # https://www.zsh.org/
 # ------------------------------------------------------------------------------
 # Cask Applications
 # ------------------------------------------------------------------------------
+cask "cursor"                   # https://www.cursor.com/
 cask "docker-desktop"           # https://www.docker.com/
 cask "font-fira-code"           # https://github.com/tonsky/FiraCode
 cask "font-hack-nerd-font"      # https://github.com/ryanoasis/nerd-fonts
