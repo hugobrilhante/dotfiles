@@ -4,7 +4,7 @@
 # ------------------------------------------------------------------------------
 # CLI Tools
 # ------------------------------------------------------------------------------
-brew "aws-cli"                  # https://aws.amazon.com/cli/
+brew "awscli"                   # https://aws.amazon.com/cli/
 brew "bat"                      # https://github.com/sharkdp/bat
 brew "gh"                       # https://github.com/cli/cli
 brew "git"                      # https://git-scm.com/
