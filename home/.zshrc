@@ -195,5 +195,17 @@ fi
 
 # ------------------------------------------------------------------------------
 
+# Mise (https://mise.jdx.dev/)
+# If mise is installed and provides a zsh init file, source it from
+# the XDG config dir (~/.config/mise/mise.zsh) so users installed via
+# various methods (brew, script, etc.) get initialized automatically.
+MISE_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/mise"
+if command -v mise >/dev/null 2>&1; then
+  if [[ -f "${MISE_CONFIG_DIR}/mise.zsh" ]]; then
+    source "${MISE_CONFIG_DIR}/mise.zsh"
+  fi
+fi
+
+
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"

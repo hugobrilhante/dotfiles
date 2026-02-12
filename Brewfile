@@ -24,6 +24,7 @@ brew "uv"                       # https://github.com/astral-sh/uv
 brew "watch"                    # https://linux.die.net/man/1/watch
 brew "wget"                     # https://www.gnu.org/software/wget/
 brew "zsh"                      # https://www.zsh.org/
+brew "mise"                     # https://mise.jdx.dev/
 
 # ------------------------------------------------------------------------------
 # Cask Applications
